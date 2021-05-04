@@ -26,4 +26,47 @@ body {
   font-family: 'DM Sans', sans-serif; /*Establecimos el tipo de fuente para todo el documento*/
   font-size: 1.6rem; /*Para establecer un tamaño estandar a todo el font-size del documento;*/
 }
-
+header {
+  padding: 0 2%;
+  position: relative;
+  height: 40rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  background: linear-gradient(207.8deg, #201E1C 16.69%, #F7931A 100%);
+}
+.header--picture-container img {
+  width: 17rem;
+}
+.header--title-container {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+.header--title-container h1{
+  color: var(--white);
+  margin-bottom: 2.4rem;
+  font-weight: 700;
+}
+.header--title-container p{
+  color: var(--soft-orange);
+}
+.header--button {
+  color: var(--dark);
+  font-weight: 700;
+  text-decoration: none;
+  padding: 1.5rem;
+  position: absolute;
+  bottom: -2.3rem;
+  background: #FAF8F7;
+  /* Sombra /Blanco */
+  box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.5);
+  border-radius: 0.4rem;
+}
+.header--button span {
+  display: inline-block;
+  width: 1.3rem;
+  height: .8rem;
+  margin-left: 1rem;
+  background-image: url('./assets/icons/down-arrow.svg');
+}
