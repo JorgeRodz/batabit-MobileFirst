@@ -1,0 +1,29 @@
+:root {
+  /*Colores*/
+  --bitcoin-orange: #F7931A;
+  --soft-orange: #FFE9D5;
+  --seconday-blue: #1A9AF7;
+  --soft-blue: #E7F5FF;
+  --warm-dark: #201E1C;
+  --dark: #282623;
+  --gray: #BABABA;
+  --white: #fff;
+  --off-white: #FAF8F7;
+}
+
+html {
+  font-size: 62.5%; /*Reset para REMS - 62.5% = 10px de 16px | 1 rem = 10px  */
+  box-sizing: border-box; /*Aplicar correctamente box-sizing*/
+}
+*, *::before, *::after { /*Aplicar correctamente box-sizing*/
+  box-sizing: inherit; /*Aplicar correctamente box-sizing*/
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'DM Sans', sans-serif; /*Establecimos el tipo de fuente para todo el documento*/
+  font-size: 1.6rem; /*Para establecer un tamaño estandar a todo el font-size del documento;*/
+}
+

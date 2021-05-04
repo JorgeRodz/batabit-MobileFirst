@@ -1,1 +1,3 @@
 #ignore files
+.prettierignore
+node_modules/
