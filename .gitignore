@@ -1,3 +1,5 @@
 #ignore files
 .prettierignore
 node_modules/
+.cache/
+dist/
