@@ -238,8 +238,24 @@ header {
 .product-detail p {
   color: var(--light-gray1);
   font-weight: 500;
+  font-size: 1.4rem;
 }
-
 .product-detail__header {
   text-align: center;
+}
+.product-detail__header img {
+  position: relative;
+  top: -1rem;
+}
+.product-detail__header > * {
+  margin: 2.4rem 0;
+}
+.product-detail__card {
+  background-color: var(--warm-dark1);
+  margin: 1.6rem;
+  padding: 2rem 2rem;
+  border-radius: .5rem;
+}
+.product-detail__card > * {
+  margin: .5rem 0;
 }
