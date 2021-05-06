@@ -230,6 +230,7 @@ header {
 /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!- product-detail - !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 .product-detail {
   background-color: var(--warm-dark);
+  padding-bottom: 2rem; /* Para quitar una linea blanca al final de la seccion*/
 }
 .product-detail h2, h3{
   color: var(--white);
@@ -250,12 +251,26 @@ header {
 .product-detail__header > * {
   margin: 2.4rem 0;
 }
-.product-detail__card {
+.product-detail__card-group {
+  margin: 1rem 1.6rem;
+  background-color: var(--warm-dark);
+}
+.product-detail__card-item {
   background-color: var(--warm-dark1);
-  margin: 1.6rem;
   padding: 2rem 2rem;
+  margin: 1.6rem 0;
   border-radius: .5rem;
 }
-.product-detail__card > * {
-  margin: .5rem 0;
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!- seccion-comodin - !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+.seccion-comodin {
+  height: 40.9rem;
+  background-image: url('./assets/imgs/bitcoinbaby1.png');
+  background-size: cover;
+  background-position: top;
+}
+.seccion-comodin h2 {
+  text-align: center;
+  font-weight: 700;
+  color: var(--white);
+  padding-top: 7rem;
 }
