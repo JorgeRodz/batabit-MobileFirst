@@ -31,6 +31,10 @@ body {
   font-family: 'DM Sans', sans-serif; /*Establecimos el tipo de fuente para todo el documento*/
   font-size: 1.6rem; /*Para establecer un tamaño estandar a todo el font-size del documento;*/
 }
+.contenedor-1200 {
+  max-width: 120rem;
+  margin: 0 auto
+}
 header {
   padding: 0 2%;
   position: relative;
@@ -114,14 +118,21 @@ header {
   line-height: 1.6rem;
   color: #757575;
 }
+.main-tables-container {
+  display: flex;
+  overflow-x: scroll;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x proximity;
+  margin: 0 1rem;
+}
 .main-currency-table,
 .main-commissions-table {
   width: 70%;
-  min-width: 235px;
+  min-width: 25rem;
   max-width: 500px;
   height: 360px;
   margin: 0 auto;
-
+  scroll-snap-align: center;
   font-family: "Inter", sans-serif;
 }
 .main-currency-table .currency-table--title {
@@ -255,9 +266,9 @@ header {
 /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!- seccion-comodin - !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 .seccion-comodin {
   height: 40.9rem;
-  background-image: url('./assets/imgs/bitcoinbaby1.png');
+  background-image: url('./assets/imgs/bitcoinbaby1.jpg');
   background-size: cover;
-  background-position: top;
+  background-position: center;
 }
 .seccion-comodin h2 {
   text-align: center;
@@ -318,7 +329,7 @@ header {
   border-radius: .6rem;
   position: absolute;
   top: -1.5rem;
-  left: 5.7rem;
+  left: calc(50% - 5rem);
 }
 .carousel__item-pago {
   font-weight: 700;

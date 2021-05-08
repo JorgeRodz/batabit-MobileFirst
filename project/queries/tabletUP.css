@@ -1,0 +1,25 @@
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!- product-detail - !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+.product-detail__card-group {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  column-gap: 2rem;
+  /* margin: 1rem 1.6rem; */
+  padding: 0 3rem 0 1rem;
+  margin: 0 auto;
+}
+
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!- planes - !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+.planes__carousel-container {
+  justify-content: center;
+}
+.carousel__item {
+  margin: 0 4rem;
+}
+
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!- footer - !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+.footer-container__partners ul {
+  display: flex;
+}
+.footer-container__partners ul li {
+  margin-right: 4rem;
+}
